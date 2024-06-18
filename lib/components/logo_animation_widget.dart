@@ -23,7 +23,7 @@ class LogoAnimationWidget extends StatelessWidget {
         AnimatedContainer(
           padding: const EdgeInsets.only(left: 15),
           duration: duration,
-          width: isExpanded ? size.width * 0.6 : 0.0,
+          width: isExpanded ? size.width * 0.58 : 0.0,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,

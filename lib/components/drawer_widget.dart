@@ -22,7 +22,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
       duration: duration,
       margin: const EdgeInsets.only(top: 20, left: 20),
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
-      width: isExpanded ? size.width * 0.8 : size.width * 0.20,
+      width: isExpanded ? size.width * 0.8 : size.width * 0.22,
       height: size.height * 0.9,
       decoration: const BoxDecoration(
         color: Colors.black,

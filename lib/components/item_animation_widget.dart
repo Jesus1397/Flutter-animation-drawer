@@ -30,7 +30,7 @@ class ItemAnimationWidget extends StatelessWidget {
           duration: duration,
           alignment: Alignment.centerLeft,
           padding: const EdgeInsets.only(left: 30),
-          width: isExpanded ? MediaQuery.of(context).size.width * 0.60 : 0.0,
+          width: isExpanded ? MediaQuery.of(context).size.width * 0.58 : 0.0,
           height: 16,
           child: AnimatedOpacity(
             opacity: isExpanded ? 1.0 : 0.0,
