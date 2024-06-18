@@ -141,8 +141,10 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                 alignment:
                     isExpanded ? Alignment.centerRight : Alignment.center,
                 duration: duration,
-                child: const Icon(
-                  Icons.keyboard_arrow_right_rounded,
+                child: Icon(
+                  isExpanded
+                      ? Icons.keyboard_arrow_left_rounded
+                      : Icons.keyboard_arrow_right_rounded,
                   color: Colors.white,
                 ),
               ),
